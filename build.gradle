@@ -1,0 +1,10 @@
+apply plugin: 'java'
+apply plugin:'application'
+
+dependencies {
+	compile files('libs/gephi-toolkit.jar')
+  runtime files('libs/gephi-toolkit.jar')
+}
+
+mainClassName = "org.gephi.toolkit.demos.Centrality"
+
